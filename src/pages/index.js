@@ -1,12 +1,10 @@
 import React from 'react';
-
+import Profile from '../components/Profile';
 import BasicLayout from '../layouts/BasicLayout';
 
-import './index.scss';
-
 const Index = () => (
-  <BasicLayout menuColor="#000">
-    <h1 className="title">Index</h1>
+  <BasicLayout menuColor="background-menu-transparent">
+    <Profile />
   </BasicLayout>
 );
 

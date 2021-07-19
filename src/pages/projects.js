@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Projects = () => {
-  return (
-    <div>
-      <h1>Proyectos</h1>
-    </div>
-  );
-};
+import BasicLayout from '../layouts/BasicLayout';
+
+const Projects = () => (
+  <BasicLayout menuColor="background-menu-dark">
+    <h1 className="title">Projects</h1>
+  </BasicLayout>
+);
 
 export default Projects;

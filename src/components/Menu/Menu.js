@@ -1,15 +1,14 @@
 import React from 'react';
+import classNames from 'classnames';
 import { Link } from 'gatsby';
 import { Container } from 'react-bootstrap';
 import './Menu.scss';
 
 const Menu = props => {
   const { menuColor } = props;
+
   return (
-    <header
-      className="menu"
-      style={{ backgroundColor: menuColor || 'transparent' }}
-    >
+    <header className={classNames(['menu', menuColor])}>
       <Container>
         <ul>
           <li>

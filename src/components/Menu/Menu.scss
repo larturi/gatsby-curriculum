@@ -16,6 +16,7 @@
 
             a {
                 color: $font-light;
+                text-decoration: none;
                 &:hover {
                     color: $font-blue;
                     text-decoration: none;
@@ -23,4 +24,8 @@
             }
         }
     }
+}
+
+.background-menu-dark {
+    background-color: $background-menu-dark;
 }
