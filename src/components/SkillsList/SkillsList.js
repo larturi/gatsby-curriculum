@@ -1,14 +1,16 @@
 import React from 'react';
-import { SkillBars } from 'react-skills';
+import SkillBar from 'react-skillbars';
 
 import './SkillsList.scss';
 
 const SkillsList = props => {
-  const { skills } = props;
+  const { skills, colors } = props;
+
+  console.log(colors);
 
   return (
-    <div>
-      <SkillBars skills={skills} flat={true} labelsWidth={120} />
+    <div className="skills-list">
+      <SkillBar skills={skills} colors={colors} height={27} />
     </div>
   );
 };

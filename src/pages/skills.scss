@@ -1,4 +1,4 @@
-@import '../sass//index.scss';
+@import '../sass/index.scss';
 
 .skills {
     margin-top: 60px;
@@ -8,12 +8,7 @@
 
         > h2 {
             margin-bottom: 20px;
-        }
-
-        h5 {
-            background-color: $font-blue-dark !important;
-            font-size: 16px !important; 
-            margin-top: 6px !important;
+            font-size: 24px;
         }
         
     }
