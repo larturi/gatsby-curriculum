@@ -10456,6 +10456,11 @@ react-side-effect@^2.1.0:
   resolved "https://registry.yarnpkg.com/react-side-effect/-/react-side-effect-2.1.1.tgz#66c5701c3e7560ab4822a4ee2742dee215d72eb3"
   integrity sha512-2FoTQzRNTncBVtnzxFOk2mCpcfxQpenBMbk5kSVBg5UcPqV9fRbgY2zhb7GTWWOlpFmAxhClBDlIq8Rsubz1yQ==
 
+react-skills@^1.27.0:
+  version "1.27.0"
+  resolved "https://registry.yarnpkg.com/react-skills/-/react-skills-1.27.0.tgz#31c7aba179f0e833f9eb4e3634e9644bdd05bf17"
+  integrity sha512-kdHyAi7TaAjXU8fUyZf7BPNgGKGl2E1OHIZRMDvU344zxwj5+0Qe76YcYxAjjdD26PvmT+3uOLUfhvheLXJVzA==
+
 react-transition-group@^4.4.1:
   version "4.4.2"
   resolved "https://registry.yarnpkg.com/react-transition-group/-/react-transition-group-4.4.2.tgz#8b59a56f09ced7b55cbd53c36768b922890d5470"

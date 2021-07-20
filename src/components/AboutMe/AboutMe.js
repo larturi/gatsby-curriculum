@@ -15,7 +15,7 @@ const AboutMe = () => {
         a brindar mi ayuda.
       </p>
       <hr />
-      <a href={CV} target="_blank">
+      <a href={CV} target="_blank" rel="noreferrer">
         <Button>Descargar CV</Button>
       </a>
     </Container>
