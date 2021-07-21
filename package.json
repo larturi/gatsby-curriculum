@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@loadable/component": "^5.15.0",
     "bootstrap": "5.0.2",
     "classnames": "^2.3.1",
     "gatsby": "^3.9.1",

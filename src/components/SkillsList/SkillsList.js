@@ -1,12 +1,12 @@
 import React from 'react';
-import SkillBar from 'react-skillbars';
+import loadable from '@loadable/component';
 
 import './SkillsList.scss';
 
+const SkillBar = loadable(() => import('react-skillbars'));
+
 const SkillsList = props => {
   const { skills, colors } = props;
-
-  console.log(colors);
 
   return (
     <div className="skills-list">
