@@ -12,11 +12,16 @@
 
 **Start developing**
 
-Navigate into your new site’s directory and start it up.
+Install dependences
 
 ```shell
-cd my-default-starter/
-gatsby develop
+yarn install
+```
+
+Start in development nmode
+
+```shell
+yarn start
 ```
 
 **Build the app for production**
