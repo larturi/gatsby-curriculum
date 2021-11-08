@@ -36,6 +36,19 @@
         .info {
             padding: 50px;
 
+            .image-container {
+                
+                @media screen and (max-width: 720px) {
+                    display: flex;
+                    justify-content: center;
+
+                    img {
+                        width: 120px;
+                        border-radius: 100% !important;
+                    }
+                }
+            }
+
             &__data {
                 margin-top: -7px;
 
@@ -57,6 +70,10 @@
                     .item {
                         display: flex;
 
+                        @media screen and (max-width: 720px) {
+                            flex-wrap: wrap;
+                        }
+
                         p {
                             &:first-of-type {
                                 width: 25%;
@@ -68,8 +85,25 @@
                                 width: 75%;
                                 color: $font-gray;
                             }
+
+                            @media screen and (max-width: 720px) {
+                                &:first-of-type {
+                                    width: 100%;
+                                    font-weight: bold;
+                                    text-transform: uppercase;
+                                }
+    
+                                &:last-of-type {
+                                    width: 100%;
+                                    color: $font-gray;
+                                }
+                            }
                         }
                     }
+                }
+
+                @media screen and (max-width: 720px) {
+                    text-align: center;
                 }
             }
         }

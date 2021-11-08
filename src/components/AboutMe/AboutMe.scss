@@ -17,4 +17,10 @@
         background-color: $font-blue;
         border-color: $font-blue;
     }
+
+    @media screen and (max-width: 720px) {
+        padding: 30px;
+        width: 90%;
+    }
 }
+

@@ -20,7 +20,7 @@ const Profile = () => {
       <div className="dark" />
       <Container className="box">
         <Row className="info">
-          <Col xs={12} md={4}>
+          <Col xs={12} md={4} className="image-container">
             <Image src={profileImage} fluid />
           </Col>
           <Col xs={12} md={8} className="info__data">

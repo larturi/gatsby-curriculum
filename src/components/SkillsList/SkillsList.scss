@@ -12,5 +12,17 @@
         .skillbar-title, .skillbar-bar  {
             border-radius: 0px !important;
         }
+
+        @media screen and (max-width: 720px) {
+            width: 95%;
+            margin-right: 0px;
+
+            &:nth-child(1n) {
+                margin-left: 1px;
+            }
+        }
     }
+
+
+   
 }
